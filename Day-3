@@ -1,6 +1,6 @@
 ## Data Validation
 
-Used to **control the type of data** that can be entered in a cell.
+Used to **control the type of data** that can be entered in a cell. Do not select headers while applying Data validation.
 
 **Common Types:**
 - **Any Value** → Allows any type of input.
@@ -34,3 +34,49 @@ Shortcut - Ctrl shift ; -> static formula
 * `K` → Displays K after the number
 
 **2514000 → `#,##0.0,,M` → 2.5M**
+
+CONDITIONAL FORMATTING
+
+Conditional Formatting → Automatically formats cells based on a condition/rule.
+
+Manage Rules
+
+Home → Conditional Formatting → Manage Rules
+
+Used to:
+
+View all conditional formatting rules
+Edit / Delete rules
+Change the order of rules
+Decide which rule gets preference
+Stop If True
+
+Stop If True → If the current rule is TRUE, Excel will not check/apply the rules below it for that cell.
+
+Example:
+
+Rule 1 → >90 → Green
+Rule 2 → >50 → Yellow
+
+If Stop If True is applied to Rule 1:
+
+95 → Green ✅
+Excel stops and does not apply Rule 2.
+
+Rule Preference / Priority
+
+Rules are checked from top to bottom.
+
+Top rule = Higher priority
+
+If multiple rules are TRUE for the same cell, the rule with higher priority gets preference.
+
+In Manage Rules:
+
+Move rule Up ↑ → Higher priority
+Move rule Down ↓ → Lower priority
+Important
+
+Stop If True = stops checking lower-priority rules when the current rule is TRUE.
+
+Rule Order = decides which rule gets preference.
