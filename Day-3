@@ -1,0 +1,36 @@
+## Data Validation
+
+Used to **control the type of data** that can be entered in a cell.
+
+**Common Types:**
+- **Any Value** → Allows any type of input.
+- **Whole Number** → Allows only whole numbers.
+- **Decimal** → Allows decimal values.
+- **List** → Allows selection from a predefined list/dropdown.
+
+**Path:** `Data → Data Validation`
+
+---
+## Date & Time
+**Today's Date**
+```excel
+=TODAY() - dynamic formula (updated automatically- tomorrow will be updated date)
+shortcut - Ctrl ; - it is static
+
+=now() gives date & time - dynamic
+Shortcut - Ctrl shift ; -> static formula
+
+## NUMBER FORMATTING
+
+# → Any no. of variable including null
+0 → Fixed variable
+, → Divided by 1000
+,, → Divided by 1000000
+
+### Example
+**2514 → `#,##0.0K` → 2.5K**
+* `,` → Divides the number by 1000
+* `0.0` → Shows 1 decimal place
+* `K` → Displays K after the number
+
+**2514000 → `#,##0.0,,M` → 2.5M**
