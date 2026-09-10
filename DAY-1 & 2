@@ -1,10 +1,30 @@
-Theory-
+Business Intelligence (BI) Theory
 
+BI uses data to generate insights and support business decisions.
 
+3 Key Environments 
+Data Warehouse 🗄️
+Collect, organize & standardize data.
+Example: Cloud platforms like AWS
+Business Analytics 📈
+Extract, transform, analyze & visualize data.
+Business Analyst: Domain knowledge + basic technical skills
+Data Analyst: Strong technical/data analysis skills
+Business Process Management ⚙️
+Uses insights for business decisions and process improvement.
+🔄 Data Analysis — ETL
 
+Extract → Transform → Load
 
+Extract: Collect data
+Transform: Clean & manipulate data
+Load: Store transformed data
 
+Common transformations:
+Remove duplicates • Handle missing values • Handle outliers • Standardize data
 
+⚠️ Outliers / Noisy Data
+Values significantly different from the normal range or incorrect values.
 
 
 1. Sort & Filter
