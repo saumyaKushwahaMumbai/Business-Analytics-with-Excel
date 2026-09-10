@@ -1,0 +1,72 @@
+Theory-
+
+
+
+
+
+
+
+
+1. Sort & Filter
+
+Sort
+**Basic Sort**
+- Sorts data using a single column.
+- Examples: A → Z, Z → A, Smallest → Largest.
+
+**Advanced / Custom Sort**
+- Allows **multi-level sorting** using multiple columns.
+- Example:
+  1. Sort by `Region` → A → Z
+  2. Then by `Sales` → Largest → Smallest
+- Path: `Data → Sort`
+
+Filter
+Displays only rows matching selected criteria.
+Shortcut: Ctrl + Shift + L
+
+** Advanced Filter**
+- Used for complex/custom filtering.
+- Uses a **Criteria Range**.
+- Can filter data in place or **copy filtered results to another location**.
+- Path: `Data → Advanced`
+
+> **Key Difference:**
+> - **Basic Sort →** Single-level sorting.
+> - **Advanced/Custom Sort →** Multi-level sorting.
+> - **Basic Filter →** Quick filtering using drop-downs.
+> - **Advanced Filter →** Criteria Range-based filtering.
+
+2. Group
+Combines rows/columns for collapse & expand.
+Path: Data → Group
+
+3. Ungroup
+Removes existing grouping.
+Data remains unchanged.
+Path: Data → Ungroup
+
+4. Subtotal ⭐
+Calculates Sum, Average, Count, Min, Max, etc. for groups.
+⭐ Sorting is COMPULSORY before applying Subtotal.
+Sort the data based on the column you want to create groups for.
+Without sorting, the same group can appear in multiple places, resulting in separate subtotals.
+
+Steps:
+Sort → Data → Subtotal → Select Grouping Column → Select Function → Select Data Column
+
+5. Text to Columns
+Splits one column into multiple columns.
+Delimited: Splits using comma, space, tab, etc.
+Fixed Width: Splits based on character position.
+Path: Data → Text to Columns
+
+Q: Can we use multiple delimiters in Text to Columns?
+Ans: Yes, but there is a limitation.
+Multiple built-in delimiters can be selected together, e.g. Tab + Comma + Space.
+The Other option allows only one custom delimiter character at a time.
+Therefore, you cannot specify multiple custom delimiters such as @ and . together in the same Other box.
+
+  6. Remove Duplicates
+  Removes duplicate records based on selected columns.
+  Path: Data → Remove Duplicates
