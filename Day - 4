@@ -1,2 +1,33 @@
 Relative Cell referencing
 Absolute / Fixed cell referencing
+# CELL REFERENCING
+
+Cell referencing controls how cell references behave when formulas are copied.
+
+### Types
+
+| Type     | Example | Behavior            |
+| -------- | ------- | ------------------- |
+| Relative | `A2`    | Row & column change |
+| Absolute | `$A$2`  | Row & column fixed  |
+| Mixed    | `$A2`   | Column fixed        |
+| Mixed    | `A$2`   | Row fixed           |
+
+**F4** → cycles through reference types.
+
+### Conditional Formatting Example
+
+To highlight **entire rows** where Column G is below 3000:
+
+1. Select the entire data range **excluding headers**.
+2. **Conditional Formatting → New Rule**
+3. Select **Use a formula to determine which cells to format**
+4. Enter:
+
+```excel
+=$G2<3000
+```
+
+* `$G` → Column G is fixed.
+* `2` → Row changes for each row.
+* If TRUE, the **entire selected row is highlighted**.
