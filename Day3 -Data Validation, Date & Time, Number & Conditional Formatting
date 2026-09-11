@@ -1,3 +1,11 @@
+├── Data Validation
+├── Date & Time
+├── Number Formatting
+└── Conditional Formatting
+    ├── Manage Rules
+    ├── Stop If True
+    └── Rule Preference / Priority
+
 ## Data Validation
 
 Used to **control the type of data** that can be entered in a cell. Do not select headers while applying Data validation.
