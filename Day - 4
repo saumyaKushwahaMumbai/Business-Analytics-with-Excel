@@ -1,10 +1,10 @@
 Relative Cell referencing
 Absolute / Fixed cell referencing
-# CELL REFERENCING
+### CELL REFERENCING
 
 Cell referencing controls how cell references behave when formulas are copied.
 
-### Types
+# Types
 
 | Type     | Example | Behavior            |
 | -------- | ------- | ------------------- |
@@ -31,3 +31,33 @@ To highlight **entire rows** where Column G is below 3000:
 * `$G` → Column G is fixed.
 * `2` → Row changes for each row.
 * If TRUE, the **entire selected row is highlighted**.
+
+
+### SUMIF & SUMIFS
+#SUMIF
+Adds values based on one condition.
+
+=SUMIF(range, criteria, sum_range)
+
+Example:
+
+=SUMIF(A2:A10,"Ahmedabad",B2:B10)
+
+→ Sums B where A = Ahmedabad.
+
+#SUMIFS
+
+Adds values based on multiple conditions.
+
+=SUMIFS(sum_range, criteria_range1, criteria1, criteria_range2, criteria2, ...)
+
+Example:
+
+=SUMIFS(C2:C10,A2:A10,"Ahmedabad",B2:B10,"Sales")
+
+→ Sums C where A = Ahmedabad AND B = Sales.
+
+## Key Difference
+
+SUMIF → 1 condition
+SUMIFS → Multiple conditions
