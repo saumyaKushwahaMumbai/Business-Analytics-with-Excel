@@ -1,5 +1,9 @@
-Relative Cell referencing
-Absolute / Fixed cell referencing
+
+├── Relative Cell referencing
+├── Absolute / Fixed cell referencing
+├── Sumif & Sumifs
+├── If , IF with AND
+
 ### CELL REFERENCING
 
 Cell referencing controls how cell references behave when formulas are copied.
@@ -89,3 +93,23 @@ The `IF` function can perform **mathematical calculations based on a condition**
 
 → Returns the **difference between B2 and C2**, regardless of which is larger.
 
+## IF with AND & OR
+# IF + AND
+
+Returns a result only when all conditions are TRUE.
+
+=IF(AND(A2
+>=50,B2="Yes"),"Eligible","Not Eligible")
+
+→ Both conditions must be TRUE.
+
+# IF + OR
+
+Returns a result when at least one condition is TRUE.
+
+=IF(OR(A2>=50,B2="Yes"),"Eligible","Not Eligible")
+
+→ Any one condition can be TRUE.
+
+AND → All conditions
+OR → Any one condition
