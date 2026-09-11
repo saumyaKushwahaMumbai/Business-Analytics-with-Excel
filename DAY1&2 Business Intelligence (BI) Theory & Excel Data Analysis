@@ -1,3 +1,13 @@
+
+├── Business Intelligence (BI) Theory
+│   ├── 3 Key Environments
+│   └── Data Analysis — ETL
+├── Sort & Filter
+├── Group & Ungroup
+├── Subtotal
+├── Text to Columns
+└── Remove Duplicates
+
 Business Intelligence (BI) Theory
 
 BI uses data to generate insights and support business decisions.
