@@ -61,3 +61,31 @@ Example:
 
 SUMIF → 1 condition
 SUMIFS → Multiple conditions
+
+### IF WITH MATHEMATICAL CALCULATIONS
+
+The `IF` function can perform **mathematical calculations based on a condition**.
+
+### Syntax
+
+```excel
+=IF(condition, calculation_if_true, calculation_if_false)
+```
+
+# Example
+
+```excel
+=IF(A2>=50,A2*10%,A2*5%)
+```
+
+* If `A2 >= 50` → calculates **10% of A2**
+* If `A2 < 50` → calculates **5% of A2**
+
+# Another Example
+
+```excel
+=IF(B2>C2,B2-C2,C2-B2)
+```
+
+→ Returns the **difference between B2 and C2**, regardless of which is larger.
+
