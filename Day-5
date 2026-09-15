@@ -1,0 +1,2 @@
+IF + OR +AND function
+=IF(AND(L2>=500000,OR(D2="E-commerce",D2="Corporate")),"Good Sales","Normal Sales")
