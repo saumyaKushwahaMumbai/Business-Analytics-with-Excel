@@ -1,2 +1,10 @@
 IF + OR +AND function
 =IF(AND(L2>=500000,OR(D2="E-commerce",D2="Corporate")),"Good Sales","Normal Sales")
+
+
+VLOOKUP & H-Lookup
+3 conditions must be fullfilld before applying V & H lookup
+1st Condition- 2 tables - 1 master table (where we will put formula)
+                         -  source Table (in which values are stored)
+2nd condition- There should be common column between source & master column
+3rd Condition - The common column should be the left most column in the source table. Not necessary for Master table.
