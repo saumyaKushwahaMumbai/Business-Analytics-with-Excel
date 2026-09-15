@@ -22,3 +22,18 @@ Excel uses this order to identify the correct range or threshold.
 
    The lookup column should contain values that Excel can compare in an ordered manner. 
 Numerical values are commonly used for range-based lookups such as grades, discounts, and tax slabs.
+
+### Example: VLOOKUP Approximate Match (Range)
+
+| Minimum Marks | Grade |
+|---|---|
+| 0 | F |
+| 40 | D |
+| 50 | C |
+| 60 | B |
+| 75 | A |
+
+**Lookup Value:** 68
+
+```excel
+=VLOOKUP(68,A2:B6,2,TRUE)
