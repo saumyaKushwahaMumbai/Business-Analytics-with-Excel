@@ -8,3 +8,17 @@ VLOOKUP & H-Lookup
                          -  source Table (in which values are stored)
 2nd condition- There should be common column between source & master column
 3rd Condition - The common column should be the left most column in the source table. Not necessary for Master table.
+For approxmimate match
+
+
+### Prerequisites of VLOOKUP Approximate Match
+
+1. **Lookup Column Sorted in Ascending Order**
+
+   The first column of the lookup table must be sorted from smallest to largest. 
+Excel uses this order to identify the correct range or threshold.
+
+2. **Comparable Values in Lookup Column**
+
+   The lookup column should contain values that Excel can compare in an ordered manner. 
+Numerical values are commonly used for range-based lookups such as grades, discounts, and tax slabs.
